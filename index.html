@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>Form Design 2</title>
+        <style>
+            body{
+                background-color: #f3e0e2;
+                margin: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .a_formbox{
+                width: 767px;
+                height: 480px;
+                margin: 120px auto;
+                border-radius: 10px;
+                box-shadow: 0px 10px 40px 10px rgba(0,0,0,0.2);
+                overflow: hidden;
+            }
+            .a_formbox > div:first-child{
+                width: 50%;
+                height: 100%;
+                background-color: #fff;
+                float: left;
+            }
+            .a_formbox > div:first-child form{
+                width: 80%;
+                margin: 38px auto;
+                clear: both;
+                text-align: center;
+            }
+            .a_formbox>div:last-child{
+                text-align: center;
+                color:#fff;
+                width: 50%;
+                height: 100%;
+                background-image: -webkit-linear-gradient(left,#ff464c,#ff416b);
+                float: right;
+                
+            }
+            
+            .a_formbox > div:last-child *{
+                width: 70%;
+                margin: auto;
+            }
+            .a_formbox form input{
+                border:none;
+                display: block;
+                height: 39px;
+                width: 95%;
+                background-color:#eee;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                padding-left: 15px;
+            }
+            input[type="password"]{ 
+                width: 100%;
+                float: left;
+            }
+            button[type="submit"]{
+                width: 138px;
+                height: 41px;
+                background-color:#ff4b2b;
+                border:none;
+                border-radius: 50px;
+                color:#fff;
+                margin-top: 10px;;
+            }
+            a{
+                color:#333;
+                text-decoration: none;
+            }
+            .a_sociallink a{
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 45px;
+                border-radius: 40px;
+                border:1px solid #333;
+            }
+            .a_sociallink a i{
+                font-size: 1.6em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a_formbox">
+            <div class="col-12">
+                <form>
+                    <h1>Login</h1>
+                    <div class="a_sociallink" style="margin-bottom: 50px;">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    
+                    <a href="#">Or Use your Account</a>
+                    <div>
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <input type="password" name="password" placeholder="Password">
+                    </div>
+                    <div>
+                        <a href="#">Forgot your password ?</a>
+                    </div>
+                    <div>
+                        <button type="submit">LOG IN</button>
+                    </div>
+                </form>
+            </div>
+            <div  class="col-12">
+                <h1 style="margin-top:130px">HTML CSS Login Form</h1>
+                <p style="margin-top:20px">
+                    This login form is created using pure html and CSS . for social icons,fontawesome is Used.
+                </p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
